@@ -1,0 +1,25 @@
+element.style {
+  width: 600px;
+  height: 150px;
+}
+.offline .runner-container, .offline .runner-canvas {
+  position: relative;
+}
+
+.offline .runner-canvas {
+  height: 150px;
+  max-width: 600px;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+canvas[属性样式] {
+  aspect-ratio: auto 600 / 150;
+}
+用户代理样式表
+canvas {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
